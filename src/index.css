@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: "Open Sans","Helvetica",Arial,sans-serif;
+
+
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: white;
+}.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: none;
+}
+
+.navbar{
+  background-color: #db4c3f;
+  border: none;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand{
+  color: white;
+
+}
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background-color: #db4c3f;
+  border: none;
+  margin-left: 10px;
+}
+.nav>li>a{
+  padding: auto;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: #fff;
+  margin-left: 0px;
+}
+
+/*
+body todo*/
+h2{
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  color:#303333;
+}
+.todo{
+  background-color: #fff;
+  min-height: 900px;
+}
+.todo li{
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.form-input button{
+  background-color: #db4c3f;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.add-todo {
+  background-color: #db4c3f;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+
+}
+.formBox{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.add {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.delete{
+  float:right;
+  display: block;
+  width: 23px;
+  height:23px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color:white;
+  margin-right: 10px;
+}
+.INVI{
+  display: none;
+}
+.times{
+  float: right;
+  color: #928888;
+}
+.form-td{
+  width: 100%;
+}
+/*hover*/
+.delete:hover{
+  background-color: #efecec;
+}
+.delete:hover .glyphicon{
+  background-color: #efecec;
+  display: block;
+}
+.del{
+  display:none;
+  font-size: 10px;
+}
+.add-todo:hover{
+  background-color:#ca0707;
+}
+.add:hover{
+  background-color:#ca0707;
+}
+.remove:hover{
+  background-color:#ca0707;
+}
